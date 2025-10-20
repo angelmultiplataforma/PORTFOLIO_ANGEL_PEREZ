@@ -694,6 +694,12 @@ footer .arriba{
 }
 
 
+/* Evita el cursor de texto delante de los datos personales */
+.sobremi .col ul li {
+  cursor: default;
+  user-select: none; /* opcional, evita seleccionar el texto accidentalmente */
+}
+
 
 
 /* SECCION RESPONSIVE */
